@@ -1,2 +1,3 @@
 date_made,target_date,predicted_price,actual_price,error,regime,status
 2026-07-10,2026-07-11,123.27,,,elevated,ok
+2026-07-11,2026-07-12,119.89,,,elevated,ok
