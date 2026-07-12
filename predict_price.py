@@ -40,7 +40,7 @@ def daily_peak_price(start, end):
 try:
   due = log[(pd.to_numeric(log["actual_price"], errors="coerce").isna()) &
               (pd.to_numeric(log["predicted_price"], errors="coerce").notna()) &
-              (pd.to_datetime(log["target_date"], errors="coerce").dt.date < today.date())]]
+              (pd.to_datetime(log["target_date"], errors="coerce").dt.date < today.date())]
     if len(due):
         lo=pd.to_datetime(due["target_date"]).min().date()
         hi=pd.to_datetime(due["target_date"]).max().date()
