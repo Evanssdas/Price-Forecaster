@@ -38,7 +38,7 @@ def daily_peak_price(start, end):
 
 # ---------- 1. BACKFILL actual prices ----------
 try:
-    due = log[(pd.to_numeric(log["actual_price"], errors="coerce").isna()) &
+  due = log[(pd.to_numeric(log["actual_price"], errors="coerce").isna()) &
               (pd.to_numeric(log["predicted_price"], errors="coerce").notna()) &
               (pd.to_datetime(log["target_date"], errors="coerce").dt.date < today.date())]]
     if len(due):
