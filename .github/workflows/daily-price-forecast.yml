@@ -1,8 +1,8 @@
-name: Daily price forecast (v3)
+name: Daily price forecast
 
 on:
   schedule:
-    - cron: "0 20 * * *"     # evening - yesterday's price + system price have published
+    - cron: "0 20 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -24,4 +24,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add price_predictions_log.csv
           git commit -m "price forecast $(date -u +%Y-%m-%d)" || echo "nothing to commit"
-          git push
+          git pull --rebase origin main || true
+          git push origin main
