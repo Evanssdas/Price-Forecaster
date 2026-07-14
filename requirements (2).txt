@@ -1,0 +1,6 @@
+pandas
+numpy
+lightgbm
+holidays
+requests
+yfinance
