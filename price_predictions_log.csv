@@ -59,5 +59,6 @@ date_made,target_date,predicted_price,actual_price,error,regime,ttf_eur_mwh,stat
 2026-09-08,2026-09-09,124.56,214.88,-90.32,elevated,,ok
 2026-09-09,2026-09-10,112.19,183.88,-71.69,elevated,,ok
 2026-09-10,2026-09-11,127.18,207.55,-80.37,elevated,,ok
-2026-09-11,2026-09-12,124.63,,,elevated,,ok
+2026-09-11,2026-09-12,124.63,187.69,-63.06,elevated,,ok
 2026-09-12,2026-09-13,100.17,,,elevated,,ok
+2026-09-13,2026-09-14,146.84,,,elevated,,ok
