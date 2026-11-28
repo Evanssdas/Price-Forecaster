@@ -127,5 +127,6 @@ date_made,target_date,predicted_price,actual_price,error,regime,ttf_eur_mwh,stat
 2026-11-23,2026-11-24,154.98,227.29,-72.31,elevated,,ok
 2026-11-24,2026-11-25,160.19,253.51,-93.32,elevated,,ok
 2026-11-25,2026-11-26,,,,,,skipped: ReadTimeout
-2026-11-26,2026-11-27,168.62,,,elevated,,ok
+2026-11-26,2026-11-27,168.62,285.52,-116.9,elevated,,ok
 2026-11-27,2026-11-28,144.43,,,elevated,,ok
+2026-11-28,2026-11-29,143.51,,,elevated,,ok
